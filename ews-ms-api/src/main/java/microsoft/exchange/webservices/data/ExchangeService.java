@@ -24,7 +24,8 @@ import org.w3c.dom.Node;
 /**
  * Represents a binding to the Exchange Web Services.
  */
-public final class ExchangeService extends ExchangeServiceBase implements IAutodiscoverRedirectionUrl {
+public final class ExchangeService extends ExchangeServiceBase implements
+IAutodiscoverRedirectionUrl {
 
 	/** The url. */
 	private URI url;
